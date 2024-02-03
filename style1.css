@@ -16,6 +16,19 @@
   background-color: grey;
 }
 
+h2,
+h3 {
+  text-align: center;
+}
+
+.box {
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
 h2 {
   margin: 50px;
 }
