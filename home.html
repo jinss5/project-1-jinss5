@@ -5,53 +5,60 @@
     <title>Welcome</title>
   </head>
   <body>
-    <header>
-      <h1>Jin Seok Oh</h1>
-      <nav>
-        <a href="home.html">About</a>
-        <a href="portfolio.html">Technical Portfolio</a>
-        <a href="qualifications.html">Qualifications</a>
-        <a href="service.html">Service</a>
-        <a href="ai.html">AI Page</a>
-      </nav>
-    </header>
-
-    <button id="page_style">Change Style</button>
-
-    <div class="home">
-      <img class="profile-pic" src="image/profile.JPG" alt="profile_image" />
+    <div class="wrapper">
+      <header>
+        <h1>Jin Seok Oh</h1>
+        <nav>
+          <a href="home.html">About</a>
+          <a href="portfolio.html">Technical Portfolio</a>
+          <a href="qualifications.html">Skills</a>
+          <a href="service.html">Service</a>
+          <a href="ai.html">AI Page</a>
+        </nav>
+      </header>
       <div class="content">
-        <p>
-          Hello, I am a second year student at Texas A&M University studying
-          computer science.<br /><br />
-          My interest is in software development and specifically, back-end web
-          development.<br /><br />
-          I have experience working at a start-up company as a back-end
-          engineering intern<br />
-          and am always looking to gain more experience.<br /><br />
-          Thank you for visiting my website :)
-        </p>
+        <button id="page_style">Change Style</button>
+
+        <div class="home">
+          <img
+            class="profile-pic"
+            src="image/profile.JPG"
+            alt="profile_image"
+          />
+          <div class="introduction">
+            <p>
+              Hello, I am a second year student at Texas A&M University studying
+              computer science.<br /><br />
+              My interest is in software development and specifically, back-end
+              web development.<br /><br />
+              I have experience working at a start-up company as a back-end
+              engineering intern<br />
+              and am always looking to gain more experience.<br /><br />
+              Thank you for visiting my website :)
+            </p>
+          </div>
+        </div>
+
+        <button onclick="increment()">count button</button>
+        <p id="result"></p>
+
+        <div class="external-links">
+          <a
+            href="https://www.linkedin.com/in/jin-seok-oh-6920501b2/"
+            class="linkedin"
+            >LinkedIn</a
+          >
+          <a href="https://www.instagram.com/" class="instagram">Instagram</a>
+          <a href="https://www.facebook.com/" class="facebook">Facebook</a>
+          <a href="https://www.tiktok.com/" class="tiktok">Tiktok</a>
+          <a href="https://github.com/jinss5/" class="github">GitHub</a>
+          <a href="https://www.twitter.com/" class="twitter">Twitter</a>
+          <a href="https://www.youtube.com/" class="youtube">YouTube</a>
+          <a href="https://www.reddit.com/" class="reddit">Reddit</a>
+          <a href="https://www.snapchat.com/" class="snapchat">Snapchat</a>
+          <a href="https://medium.com/" class="medium">Medium</a>
+        </div>
       </div>
-    </div>
-
-    <button onclick="increment()">count button</button>
-    <p id="result"></p>
-
-    <div class="external-links">
-      <a
-        href="https://www.linkedin.com/in/jin-seok-oh-6920501b2/"
-        class="linkedin"
-        >LinkedIn</a
-      >
-      <a href="https://www.instagram.com/" class="instagram">Instagram</a>
-      <a href="https://www.facebook.com/" class="facebook">Facebook</a>
-      <a href="https://www.tiktok.com/" class="tiktok">Tiktok</a>
-      <a href="https://github.com/jinss5/" class="github">GitHub</a>
-      <a href="https://www.twitter.com/" class="twitter">Twitter</a>
-      <a href="https://www.youtube.com/" class="youtube">YouTube</a>
-      <a href="https://www.reddit.com/" class="reddit">Reddit</a>
-      <a href="https://www.snapchat.com/" class="snapchat">Snapchat</a>
-      <a href="https://medium.com/" class="medium">Medium</a>
     </div>
     <script src="script.js"></script>
   </body>

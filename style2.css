@@ -1,7 +1,218 @@
+.home {
+  display: flex;
+  justify-content: flex-start; /* Align items to the left */
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row; /* Arrange the header and content horizontally */
+}
+
+header {
+  background-color: olivedrab;
+  color: white;
+  padding: 10px;
+  text-align: left; /* Align the header content to the left */
+}
+
+.content {
+  flex: 1;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: olivedrab;
+}
+
+.home {
+  display: flex;
+}
+
+.profile-pic {
+  flex: auto;
+  width: 25%;
+  height: auto;
+}
+
 .content {
   flex: auto;
   font-family: sans-serif;
   text-align: center;
   padding: 40px;
-  background-color: grey;
+  background-color: olivedrab;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.box {
+  background-color: yellow;
+  margin: 20px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h2 {
+  margin: 50px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home {
+    display: initial;
+  }
+  .profile-pic {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: olivedrab;
+}
+
+header {
+  background-color: orange;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  width: 200px;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #ddd;
+}
+
+nav a.active {
+  background-color: #008cba;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #333;
+  margin-bottom: 20px;
+}
+
+.external-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+.external-links a {
+  color: #333;
+  padding: 10px 15px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.external-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.external-links a.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.external-links a.instagram {
+  background-color: #e1306c;
+  color: white;
+}
+
+.external-links a.facebook {
+  background-color: #4267b2;
+  color: white;
+}
+
+.external-links a.tiktok {
+  background-color: #000000;
+  color: white;
+}
+
+.external-links a.github {
+  background-color: #333;
+  color: white;
+}
+
+.external-links a.twitter {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.external-links a.youtube {
+  background-color: #ff0000;
+  color: white;
+}
+
+.external-links a.reddit {
+  background-color: #ff4500;
+  color: white;
+}
+
+.external-links a.snapchat {
+  background-color: #fffc00;
+  color: black;
+}
+
+.external-links a.medium {
+  background-color: #000000;
+  color: white;
+}
+
+#page_style {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: block;
+  font-size: 16px;
+  margin: 20px auto;
+  border-radius: 8px;
 }

@@ -1,67 +1,72 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Technical Portfolio</title>
+    <title>Portfolio</title>
     <link id="style_link" rel="stylesheet" href="style1.css" />
   </head>
   <body>
-    <header>
-      <h2>My Technical Projects</h2>
-      <nav>
-        <a href="home.html">About</a>
-        <a href="portfolio.html">Technical Portfolio</a>
-        <a href="qualifications.html">Qualifications</a>
-        <a href="service.html">Service</a>
-        <a href="ai.html">AI Page</a>
-      </nav>
-    </header>
+    <div class="wrapper">
+      <header>
+        <h2>Projects</h2>
+        <nav>
+          <a href="home.html">About</a>
+          <a href="portfolio.html">Technical Portfolio</a>
+          <a href="qualifications.html">Skills</a>
+          <a href="service.html">Service</a>
+          <a href="ai.html">AI Page</a>
+        </nav>
+      </header>
+      <div class="content">
+        <button id="page_style">Change Style</button>
 
-    <button id="page_style">Change Style</button>
-
-    <div class="box">
-      <h3>Frenemy</h3>
-      <p>tennis court hosting and players matching platform</p>
-      <ul>
-        <li>Developed a tennis court hosting and players matching platform</li>
-        <li>
-          Implemented OAuth2.0 utilizing kakao social login and token-based
-          authentication
-        </li>
-        <li>
-          Incorporated external Toss (mobile payment application) API to enhance
-          payment convienience
-        </li>
-        <li>
-          Utilized AWS S3 bucket to store and manage uploaded tennis court
-          images for court hosting functionality
-        </li>
-        <li>
-          Implemented load balancing using nginx and built GitHub Actions CI/CD
-          pipeline to automate running of unit tests and deployment
-        </li>
-      </ul>
-    </div>
-    <div class="box">
-      <h3>Esteem-Up</h3>
-      <ul>
-        <li>
-          Developed a fully functioning e-commerce website specializing in book
-          sales
-        </li>
-        <li>
-          Utilized bcrypt hashing algorithm and token-based authentication to
-          ensure security of user credentials
-        </li>
-        <li>
-          Implemented filtering, ordering, and pagination for 10 different
-          features using optimized SQL queries
-        </li>
-        <li>
-          Applied transaction in the payment process to guarantee ACID
-          functionality
-        </li>
-        <li>Deployed application using AWS RDS, EC2, and Docker</li>
-      </ul>
+        <div class="box">
+          <h3>Frenemy</h3>
+          <p>tennis court hosting and players matching platform</p>
+          <ul>
+            <li>
+              Developed a tennis court hosting and players matching platform
+            </li>
+            <li>
+              Implemented OAuth2.0 utilizing kakao social login and token-based
+              authentication
+            </li>
+            <li>
+              Incorporated external Toss (mobile payment application) API to
+              enhance payment convienience
+            </li>
+            <li>
+              Utilized AWS S3 bucket to store and manage uploaded tennis court
+              images for court hosting functionality
+            </li>
+            <li>
+              Implemented load balancing using nginx and built GitHub Actions
+              CI/CD pipeline to automate running of unit tests and deployment
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h3>Esteem-Up</h3>
+          <ul>
+            <li>
+              Developed a fully functioning e-commerce website specializing in
+              book sales
+            </li>
+            <li>
+              Utilized bcrypt hashing algorithm and token-based authentication
+              to ensure security of user credentials
+            </li>
+            <li>
+              Implemented filtering, ordering, and pagination for 10 different
+              features using optimized SQL queries
+            </li>
+            <li>
+              Applied transaction in the payment process to guarantee ACID
+              functionality
+            </li>
+            <li>Deployed application using AWS RDS, EC2, and Docker</li>
+          </ul>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

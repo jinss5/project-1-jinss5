@@ -8,7 +8,7 @@
   height: auto;
 }
 
-.content {
+.introduction {
   flex: auto;
   font-family: sans-serif;
   text-align: center;
@@ -91,7 +91,7 @@ nav a.active {
   color: white;
 }
 
-.content {
+.introduction {
   padding: 20px;
   text-align: center;
 }
