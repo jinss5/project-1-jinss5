@@ -1,0 +1,41 @@
+.home {
+  display: flex;
+  padding-top: 100px;
+}
+
+.profile-pic {
+  flex: auto;
+  width: 25%;
+  height: auto;
+}
+
+.content {
+  flex: auto;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: brown;
+}
+
+h2 {
+  margin: 50px;
+}
+
+p {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .home {
+    display: initial;
+  }
+  .profile-pic {
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  h2 {
+    margin-top: 0;
+  }
+}
