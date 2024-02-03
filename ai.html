@@ -1,8 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>AI Capabilities</title>
-    <link rel="stylesheet" href="ai.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI in Software Engineering</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        background-color: #f4f4f4;
+      }
+      header {
+        background-color: #333;
+        color: white;
+        padding: 10px 0;
+        text-align: center;
+      }
+
+      nav {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      }
+
+      nav a {
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s, color 0.3s;
+      }
+
+      nav a:hover {
+        background-color: #555;
+        color: #ddd;
+      }
+
+      nav a.active {
+        background-color: #008cba;
+        color: white;
+      }
+
+      main {
+        padding: 20px;
+      }
+      h1,
+      h2 {
+        color: #0275d8; /* Example color */
+      }
+      .ai-prompt-box {
+        background-color: #eef;
+        border: 1px solid #ddd;
+        padding: 10px;
+        margin-top: 20px;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+      }
+      /* Additional responsive and typographic styles here */
+    </style>
   </head>
   <body>
     <header>
@@ -15,45 +76,60 @@
         <a href="ai.html">AI Page</a>
       </nav>
     </header>
-    <div>
-      <br />
-      <a href="https://chat.openai.com/">ChatGPT</a> <br />
-      <textarea id="myTextArea" name="myTextArea" rows="4" cols="50">
-prompt: You are a software engineer building an ai. Teach me about 3 different ways AI can be used to help developers finish their tasks more efficiently. I want the content to be professional.</textarea
-      >
-      <p>
-        Certainly! Artificial Intelligence (AI) has significantly changed the
-        landscape of software development, offering tools and techniques that
-        enhance productivity and efficiency. Here are three ways AI can be
-        leveraged by developers to streamline their tasks: Automated Code
-        Generation and Review: AI models, similar to GitHub's Copilot, can
-        automatically generate code snippets based on the developer's intent,
-        expressed in natural language or partial code. This reduces the time
-        spent on writing boilerplate code and allows developers to focus on more
-        complex tasks. AI-powered tools can review code for potential errors,
-        style inconsistencies, and security vulnerabilities, providing instant
-        feedback. This automated review process speeds up the code refinement
-        phase and enhances code quality. Predictive Analytics for Bug Detection
-        and Resolution: AI algorithms can analyze historical data on software
-        bugs and predict potential issues in new code. By learning from past
-        patterns, these algorithms can identify anomalies, security flaws, or
-        performance bottlenecks in the development stage, reducing the number of
-        bugs that make it to production. AI can also suggest fixes for
-        identified issues by referencing similar problems solved in the past,
-        significantly reducing the time developers spend debugging. Enhanced
-        Project Management: AI-driven project management tools can optimize
-        resource allocation and timelines. By analyzing past project data, these
-        tools can predict the time required for various tasks, identify
-        potential bottlenecks, and suggest the best team composition for
-        efficiency. Real-time progress tracking using AI helps in dynamically
-        adjusting project plans and resource distribution, ensuring that
-        development stays on schedule. Incorporating AI into software
-        development processes empowers developers to work more efficiently,
-        focusing their expertise on creative problem-solving and innovation
-        rather than routine tasks. This integration leads to higher-quality
-        software, faster development cycles, and more responsive project
-        management.
-      </p>
-    </div>
+    <main>
+      <h1>How AI Enhances Software Engineering Efficiency</h1>
+      <section id="ai-benefit-1">
+        <h2>Automated Code Review</h2>
+        <p>
+          AI can significantly streamline the code review process by
+          automatically analyzing source code for errors, adherence to coding
+          standards, and even security vulnerabilities. This not only speeds up
+          the review process but also enhances the quality of the code by
+          catching issues that might be overlooked by human reviewers.
+        </p>
+      </section>
+
+      <section id="ai-benefit-2">
+        <h2>Intelligent Debugging</h2>
+        <p>
+          Debugging can be one of the most time-consuming tasks in software
+          engineering. AI-driven tools can expedite this process by
+          intelligently pinpointing potential sources of errors and suggesting
+          the most effective ways to rectify them. This reduces downtime and
+          accelerates development, allowing engineers to focus on more creative
+          aspects of software design.
+        </p>
+      </section>
+
+      <section id="ai-benefit-3">
+        <h2>Predictive Analytics for Project Management</h2>
+        <p>
+          AI algorithms are adept at analyzing large datasets to predict
+          outcomes and trends. In software engineering, this can translate into
+          better project management. AI can forecast project timelines, assess
+          risk, and provide insights on resource allocation, leading to more
+          efficient project execution and delivery.
+        </p>
+      </section>
+      <div class="ai-prompt-box">
+        <h3>AI-generated Prompt:</h3>
+        <p>
+          You are a ux designer / web publisher. I want you to build a html web
+          page the requirments are as below: AI-generated page Use an AI tool
+          (e.g. ChatGPT) to create one additional page. The topic of the page
+          should be about 3 different ways AI can help software engineers finish
+          their task more efficiently. it should be professional. it should be
+          relevant to me and my interest as software engineer. Create a text box
+          in the new page that contains the prompt I used in the final version
+          of your AI-generated page. I want the web page to be visually
+          appealing. So use CSS styling within the HTML file. Incorporate js
+          functionalities if needed. I already have a header tag containing a
+          navigation bar so take that into consideration.
+        </p>
+      </div>
+    </main>
+    <footer>
+      <!-- Footer content -->
+    </footer>
   </body>
 </html>
