@@ -1,6 +1,5 @@
 .home {
   display: flex;
-  padding-top: 100px;
 }
 
 .profile-pic {
@@ -14,7 +13,7 @@
   font-family: sans-serif;
   text-align: center;
   padding: 40px;
-  background-color: brown;
+  background-color: grey;
 }
 
 h2 {
@@ -38,4 +37,95 @@ p {
   h2 {
     margin-top: 0;
   }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* nav bar */
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background-color: #555;
+  color: #ddd;
+}
+
+nav a.active {
+  background-color: #008cba;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+  border: 3px solid #333;
+  margin-bottom: 20px;
+}
+
+/* external links */
+.external-links {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-top: 20px;
+}
+
+.external-links a {
+  color: #333;
+  padding: 10px 15px;
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 1px solid #333;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.external-links a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.external-links a.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+.external-links a.instagram {
+  background-color: #e1306c;
+  color: white;
+}
+.external-links a.github {
+  background-color: #333;
+  color: white;
 }

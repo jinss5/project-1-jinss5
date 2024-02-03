@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome</title>
     <link rel="stylesheet" href="home.css" />
+    <title>Welcome</title>
   </head>
   <body>
     <script src="script.js"></script>
@@ -17,13 +17,9 @@
       </nav>
     </header>
 
-    <div className="home">
-      <img
-        className="profile-pic"
-        src="image/profile.JPG"
-        alt="profile_image"
-      />
-      <div className="content">
+    <div class="home">
+      <img class="profile-pic" src="image/profile.JPG" alt="profile_image" />
+      <div class="content">
         <p>
           Hello, I am a second year student at Texas A&M University studying
           computer science.<br /><br />
@@ -40,8 +36,14 @@
     <button onclick="increment()">count button</button>
     <p id="result"></p>
 
-    <a href="https://www.linkedin.com/in/jin-seok-oh-6920501b2/">Linkedin</a>
-    <a href="https://www.instagram.com/">Instagram</a>
-    <a href="https://github.com/jinss5/">GitHub</a>
+    <div class="external-links">
+      <a
+        href="https://www.linkedin.com/in/jin-seok-oh-6920501b2/"
+        class="linkedin"
+        >LinkedIn</a
+      >
+      <a href="https://www.instagram.com/" class="instagram">Instagram</a>
+      <a href="https://github.com/jinss5/" class="github">GitHub</a>
+    </div>
   </body>
 </html>
