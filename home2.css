@@ -1,0 +1,7 @@
+.content {
+  flex: auto;
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px;
+  background-color: grey;
+}

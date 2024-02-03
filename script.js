@@ -5,22 +5,18 @@ function increment() {
   document.getElementById("result").innerHTML = "Today's count is " + count;
 }
 
-function light_mode() {
-  localStorage.setItem("page_stylesheet_name", "light.css");
-  load_style();
-}
-
-function dark_mode() {
-  localStorage.setItem("page_stylesheet_name", "dark.css");
-  load_style();
-}
+let page_style = localStorage.getItem("page_stylesheet_name") || "home.css";
 
 function load_style() {
-  page_style = localStorage.getItem("page_stylesheet_name");
-  if (page_style == null) {
-    page_style = "light.css";
-  }
-  document.getElementById("page_style").setAttribute("href", page_style);
+  document.getElementById("style_link").setAttribute("href", page_style);
 }
+
+document.getElementById("page_style").addEventListener("click", function () {
+  page_style = page_style === "home.css" ? "home2.css" : "home.css";
+
+  localStorage.setItem("page_stylesheet_name", page_style);
+
+  load_style();
+});
 
 load_style();
